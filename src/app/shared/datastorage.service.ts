@@ -11,7 +11,8 @@ export class DataStorageService {
     constructor(private http: Http, 
         private recipeService: RecipeService,
         private authservice : AuthService,
-        private spinnerService: SpinnerService){
+        private spinnerService: SpinnerService,
+    ){
 
     }
 
