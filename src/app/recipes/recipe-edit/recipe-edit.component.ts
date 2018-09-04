@@ -85,6 +85,12 @@ export class RecipeEditComponent implements OnInit {
     this.router.navigate(['../'],{'relativeTo':this.route})
   }
 
+  onReset(){
+    this.recipeForm.reset({
+      'name': ''
+    });
+  }
+
   onSubmit(){
 
     //use this or simple next one
